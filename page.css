@@ -1,0 +1,432 @@
+.omg{
+	position: absolute;
+}
+.container-fluid , .container , .xyz{
+	position: relative;
+}
+
+
+/*  NAVBAR  EDITING --------------------------------------------------------------------------------------*/
+
+.navbar{
+
+}
+.navbar li a{
+	color: #333399;
+	font-size: 20px;
+	font-weight: 600;
+}
+.mynavbar{
+	position: relative;
+}
+.navbar-item{
+	float: right;
+}
+.navbar-brand{
+	border: 1px solid black;
+	padding: 8px 8px 8px 8px;
+	color: #333399;
+	font-size: 30px;
+	font-weight: bold;
+}
+/* HERO IMAGE------------------------------------------------------------------------------------------------ */
+
+.heroimage{
+ 
+   background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1469114182292-14c05db80456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+   background-size: cover;
+   background-position: center;
+
+   position: relative;
+   width: 100%;
+   height:600px;
+}
+.heroh1{
+	position: fixed;
+	font-size: 70px;
+	color: white;
+	top: 50%;
+	left: 50%;
+     font-weight: bold;
+     text-transform: none;
+     font-family: monospace;
+	margin:0 auto;
+	letter-spacing: 2px;
+	transform: translate(-50%,-50%);
+}
+.heroh5{
+	font-size: 30px;
+	color: white;
+	top: 0;
+	left:0;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-family: serif;
+}
+
+
+/* ABUOT US ------------------------------------------------------------------------------------------------ */
+.aboutus{
+	width: 100%;
+	height: 300px;
+	background-color:#e6ffff;
+}
+.userlogo1{
+	font-size: 150px;
+	margin-top: 50px;
+	margin-left: 25px;
+	color:  #333399;
+	position: absolute;
+
+}
+.userlogo2{
+	font-size: 150px;
+	margin-top: 20px;
+	color:  #333399;
+	position: absolute;
+}
+
+.leftside{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	margin-bottom: 20px;
+	color: #333399;
+	text-decoration: none;
+	font-weight: 500;
+	border-bottom: 5px solid #333399;
+}
+.description1{
+	position: absolute;
+	top: 60px;
+	font-size: 20px;
+}
+.rightside{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	margin-bottom: 20px;
+	color: #333399;
+	text-decoration: none;
+	font-weight: 500;
+	border-bottom: 5px solid #333399;
+}
+.description2{
+	position: absolute;
+	top: 60px;
+	font-size: 20px;
+}
+
+/* WHAT WE DO -----------------------------------------------------------------------------------------------*/
+.hello2{
+
+position: absolute;
+width: 100%;
+height: 400px;
+overflow: hidden;
+background-color:#e6ffff;
+position: relative;
+margin-bottom: 30px;
+}
+.fascolor{
+	color: #333399;
+}
+.whatwedo{
+	position: absolute;
+    margin-top: 55px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 60px;
+    border-left: 10px solid #333399;
+    padding-left: 10px;
+}
+.wedo{
+	position: absolute;
+	margin-top: 105px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 60px;
+    border-left: 10px solid #333399;
+     padding-left: 10px;
+}
+ .kkk{
+ 	margin-top: 70px;
+ 	border: 2px solid #333399;
+ 
+ }
+ .zzz{
+ 	margin-top: 70px;
+ 	
+ }
+ .falogo{
+ 	font-size: 100px;
+ 	position: absolute;
+ 	top: 20px;
+
+ }
+
+
+/*  CAROUSEL EDITING-------------------------------------------------------------------------------------*/
+.carcolor{
+	color: black;
+	font-weight: 600;
+	font-size: 60px;
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px solid black;
+	background: rgba(225, 225, 225, 0.5);
+}
+.carpara{
+	color: white;
+	font-weight: 400;
+	font-size: 30px;
+	position: relative;
+}
+/* OUR INITIATIVES--------------------------------------------------------------------*/
+.initiative{
+	height: 650px;
+	position: relative;
+	background-color:#e6ffff;
+
+}
+.inithead{
+	margin-top: 50px;
+    border-left: 5px solid #333399;
+	border-right: 5px solid #333399;
+	border-top: 5px solid #333399;
+    top:20px;
+    left: 40%;
+    padding-top: 20px;
+    font-weight:bold;
+    font-size: 40px;
+    color: #333399;
+	text-align: center;
+	
+}
+.mainwork{
+	display: block;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 400px;
+    width: 100%;
+
+}
+
+.initimg{
+   opacity: .9;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+   display: block;
+}
+.initoverlay{
+	position: absolute;
+	background: yellow;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	background-color: #333399;
+	overflow: hidden;
+	margin-left: 10px;
+	width: 95%;
+	box-shadow: 4px 4px 4px #333399;
+	height: 100%;
+	border-radius: 10px;
+	-webkit-transform: scale(0,0);
+	-webkit-transition: .3s ease;
+}
+.overp{
+	position: absolute;
+	top: 50%;
+	font-size: 20px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 5px;
+	box-shadow: 5px 5px white;
+}
+.mainwork:hover .initoverlay{
+ -webkit-transform: scale(1,1);
+} 
+
+.inittext{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	 background: rgba(225, 225, 225, 0.5);
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size: 45px;
+	font-weight: bold;
+    border: 2px solid black;
+}
+.initbottom{
+
+	font-weight: bold;
+	color:#333399;
+	border-left: 5px solid #333399;
+	border-right: 5px solid #333399;
+	border-bottom: 5px solid #333399;
+}
+
+
+
+/* OUR VISION------------------------------------------------------------------------------------- */
+.vision{
+	position: relative;
+	height: 560px;
+	background-color:#e6ffff;
+	}
+.visionhead{
+	font-weight: bold;
+	color:#333399;
+	border-left: 5px solid #333399;
+	border-right: 5px solid #333399;
+	border-top: 5px solid #333399;
+
+}
+.visionbottom{
+	margin-top: 60px;
+	font-weight: bold;
+	color:#333399;
+	border-left: 5px solid #333399;
+	border-right: 5px solid #333399;
+	border-bottom: 5px solid #333399;
+}
+.katrian{
+
+	position: relative;
+	display: block;
+
+}
+.aish{
+		background-color: white;
+	margin-top: 60px;
+	margin-left: 10px;
+	border: 1px solid grey;
+	margin-right: 10px;
+	
+}
+.upsider{
+  width: 0%;
+  height: 320px;
+  margin-right: 80px;
+  margin-top: 60px;
+  margin-left: 22px;
+  top:0;
+  bottom: 0;
+  left:100;
+  background-color:#101010;
+  color: white;
+  position: absolute;
+  transition: 0.1s ease;
+  overflow: hidden;
+}
+
+.aish:hover .upsider{
+   width: 90%;
+   left:0;
+}
+.headowl{
+	margin-bottom: 25px;
+}
+.headpara{
+	padding: 10px;
+}
+.katicon{
+	margin-top: 40px;
+font-size: 40px;
+margin-bottom:10px;
+color: #333399;
+}
+
+
+/* EDC CELL --------------------------------------------------------------------------------------------------*/
+.hello{
+width: 100%;
+height: 200px;
+background-color:  #333399;
+position: relative;
+
+}
+.ab1{
+position: absolute;
+top: 20px;
+ margin-left: 50px; 
+ font-size: 60px;
+ color: white;
+ letter-spacing: 2px;
+ font-weight: 500;
+ font-family: sans-serif;
+}
+.ab2{
+position: absolute;
+top: 90px;
+font-size: 35px;
+margin-left: 50px; 
+color: white;
+letter-spacing:1px;
+font-weight: 200;
+}
+ /* CONTACT US  */
+.contactrow{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.shreya h5{
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.contactus{
+	margin-top: 25px;
+	font-size: 40px;
+	color: #333399;
+	 text-decoration: underline;
+	
+}
+.followus{
+	font-size: 40px;
+	margin-top: 25px;
+	color: #333399;
+	 text-decoration: underline;
+	
+}
+
+.followicon{
+font-size: 60px;
+color: #333399; 
+margin-left: 30px;
+margin-bottom: 20px;
+
+}
+
+
+.lets{
+	position: absolute;
+	font-size: 90px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #333399;
+	 text-decoration: underline;
+
+}
+
+.talk{
+	position: absolute;
+	 text-decoration: underline;
+	font-size: 50px;
+	top: 60%;
+	color: black;
+	left: 50%;
+}
+.shreya{
+	
+	
+}
