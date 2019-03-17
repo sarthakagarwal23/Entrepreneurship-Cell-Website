@@ -70,7 +70,7 @@
 .aboutus{
 	width: 100%;
 	height: 300px;
-	background-color:#e6ffff;
+	background-color:#e6e6ff;
 }
 .userlogo1{
 	font-size: 150px;
@@ -125,7 +125,7 @@ position: absolute;
 width: 100%;
 height: 400px;
 overflow: hidden;
-background-color:#e6ffff;
+background-color:#e6e6ff;
 position: relative;
 margin-bottom: 30px;
 }
@@ -188,7 +188,7 @@ margin-bottom: 30px;
 .initiative{
 	height: 650px;
 	position: relative;
-	background-color:#e6ffff;
+	background-color:#e6e6ff;
 
 }
 .inithead{
@@ -278,7 +278,7 @@ margin-bottom: 30px;
 .vision{
 	position: relative;
 	height: 560px;
-	background-color:#e6ffff;
+	background-color:#e6e6ff;
 	}
 .visionhead{
 	font-weight: bold;
